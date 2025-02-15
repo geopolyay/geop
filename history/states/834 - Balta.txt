@@ -1,0 +1,22 @@
+state={
+	id=834
+	name="STATE_834"
+	provinces={
+		741 754 9576 
+	}
+
+	history = {
+		owner = ARS
+		add_core_of = ARS
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=6.000
+}

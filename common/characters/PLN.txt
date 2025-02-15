@@ -1,0 +1,18 @@
+characters = {
+
+
+	### LEADERS ###
+	PLN_walter = {
+		name = PLN_walter
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PLN_walter
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			expire = "2024.1.1.1"
+			id = -1
+		}
+	}
+}

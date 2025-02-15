@@ -1,0 +1,3 @@
+technology_categories = {
+	horse_tech
+}

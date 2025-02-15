@@ -1,0 +1,32 @@
+
+state={
+	id=30
+	name="STATE_30"
+	manpower = 1388400
+
+	state_category = city
+
+	history={
+ 
+
+   		owner = FRE
+		add_core_of = FRE
+
+		victory_points = {
+			11465 5
+		}
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		503 527 3495 3509 3523 9478 9867 11463 11465 11613 11616 
+	}
+
+	local_supplies=0.0 
+        manpower=1
+        state_category = town
+}

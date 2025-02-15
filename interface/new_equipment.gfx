@@ -1,0 +1,8 @@
+spriteTypes = { #equipment and research
+
+	spriteType = {
+		name = "GFX_horse0_medium"
+		texturefile = "gfx/interface/technologies/horse.dds"
+	}
+
+}

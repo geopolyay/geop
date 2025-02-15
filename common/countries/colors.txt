@@ -1,0 +1,31 @@
+#reload countrycolors
+
+ARS = {
+	color = rgb { 145 17 17 }
+	color_ui = rgb { 145 17 17 }
+}
+
+SPR = {
+	color = rgb { 255 217 15 }
+	color_ui = rgb { 255 217 15 }
+}
+
+OST = {
+	color = rgb { 130 120 120 }
+	color_ui = rgb { 130 120 120 }
+}
+
+PLN = {
+	color = rgb { 173 61 61 }
+	color_ui = rgb { 173 61 61 }
+}
+
+FAZ = {
+	color = rgb { 69 24 84 }
+	color_ui = rgb { 69 24 84 }
+}
+
+FRE = {
+	color = rgb { 60 87 125 }
+	color_ui = rgb { 60 87 125 }
+}

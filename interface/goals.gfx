@@ -1,0 +1,19 @@
+spriteTypes = {	
+
+	#### CUSTOM GEOPOLITICA GOAL ICONS
+	
+	SpriteType = {
+		name = "GFX_goal_finish_the_deal"
+		texturefile = "gfx/interface/goals/focus_PLN_finish_the_deal.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_ostland_situation"
+		texturefile = "gfx/interface/goals/focus_PLN_ostland_situation.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_republic_address"
+		texturefile = "gfx/interface/goals/focus_PLN_republic_address.dds"			
+	}	
+}

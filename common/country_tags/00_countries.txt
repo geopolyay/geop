@@ -1,0 +1,6 @@
+ARS = "countries/Arstotzka.txt"
+SPR = "countries/Springfield.txt"
+OST = "countries/Ostland.txt"
+PLN = "countries/Poland.txt"
+FRE = "countries/France.txt"
+FAZ = "countries/Fazborea.txt"

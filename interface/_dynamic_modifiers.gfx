@@ -1,0 +1,8 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_modifier_PLN_warszawa"
+		texturefile = "gfx/interface/state_modifiers/PLN_warszawa.dds"
+	}
+	
+}

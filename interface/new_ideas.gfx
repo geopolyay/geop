@@ -1,0 +1,21 @@
+spriteTypes = {	
+
+
+### CUSTOM GEOPOL STUFF
+
+	SpriteType = {
+		name = "GFX_idea_OST_national_schizophrenia"
+		texturefile = "gfx/interface/ideas/idea_OST_national_schizophrenia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_OST_poland"
+		texturefile = "gfx/interface/ideas/idea_OST_poland.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_idea_OST_fazborea"
+		texturefile = "gfx/interface/ideas/idea_OST_fazborea.dds"
+	}
+
+}

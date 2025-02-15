@@ -1,0 +1,18 @@
+characters = {
+
+
+	### LEADERS ###
+	OST_koko = {
+		name = OST_koko
+		portraits = {
+			civilian = {
+				large = GFX_portrait_OST_Koko
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			expire = "2024.1.1.1"
+			id = -1
+		}
+	}
+}

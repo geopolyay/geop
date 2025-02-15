@@ -1,0 +1,22 @@
+state={
+	id=234
+	name="STATE_234"
+	provinces={
+		717 719 750 765 3720 3734 3752 3760 3765 6741 6755 6768 6781 6783 9696 9709 9744 11668 11681 11729 
+	}
+
+	history = {
+		owner = ARS
+		add_core_of = ARS
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=9.000
+}

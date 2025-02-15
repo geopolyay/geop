@@ -1,0 +1,134 @@
+ideas = {
+
+	country = {
+	
+		OST_national_schizophreniaFL = {
+			picture = OST_national_schizophrenia
+			
+			allowed = { # used to restrict ur idea to a particular country
+				tag = OST # only works for DEU, though u need to attach it to the country aswell
+			}
+
+			available = { # determines when its available to the country
+			}
+			
+			cancel = { # what will cancel this idea
+			}
+			
+			allowed_civil_war = { # if this idea will be carried over to the opposing civil war country
+				always = yes
+			}
+
+#			removal_cost = -1 # usually used with advisors
+			
+			modifier = {
+				stability_weekly = -0.005
+				war_support_weekly = 0.005
+			}
+		}
+		
+		OST_national_schizophreniaL = {
+			picture = OST_national_schizophrenia
+			
+			allowed = { # used to restrict ur idea to a particular country
+				tag = OST # only works for DEU, though u need to attach it to the country aswell
+			}
+
+			available = { # determines when its available to the country
+			}
+			
+			cancel = { # what will cancel this idea
+			}
+			
+			allowed_civil_war = { # if this idea will be carried over to the opposing civil war country
+				always = yes
+			}
+
+#			removal_cost = -1 # usually used with advisors
+			
+			modifier = {
+				stability_weekly = -0.003
+				war_support_weekly = 0.003
+			}
+		}
+		
+		OST_national_schizophreniaM = {
+			picture = OST_national_schizophrenia
+			
+			allowed = { # used to restrict ur idea to a particular country
+				tag = OST # only works for DEU, though u need to attach it to the country aswell
+			}
+
+			available = { # determines when its available to the country
+			}
+			
+			cancel = { # what will cancel this idea
+			}
+			
+			allowed_civil_war = { # if this idea will be carried over to the opposing civil war country
+				always = yes
+			}
+
+#			removal_cost = -1 # usually used with advisors
+			
+			modifier = {
+				stability_weekly = -0.001
+				war_support_weekly = -0.001
+			}
+		}
+		
+		OST_national_schizophreniaR = {
+			picture = OST_national_schizophrenia
+			
+			allowed = { # used to restrict ur idea to a particular country
+				tag = OST # only works for DEU, though u need to attach it to the country aswell
+			}
+
+			available = { # determines when its available to the country
+			}
+			
+			cancel = { # what will cancel this idea
+			}
+			
+			allowed_civil_war = { # if this idea will be carried over to the opposing civil war country
+				always = yes
+			}
+
+#			removal_cost = -1 # usually used with advisors
+			
+			modifier = {
+				stability_weekly = 0.003
+				war_support_weekly = -0.003
+			}
+		}
+		
+		OST_national_schizophreniaFR = {
+			picture = OST_national_schizophrenia
+			
+			allowed = { # used to restrict ur idea to a particular country
+				tag = OST # only works for DEU, though u need to attach it to the country aswell
+			}
+
+			available = { # determines when its available to the country
+			}
+			
+			cancel = { # what will cancel this idea
+			}
+			
+			allowed_civil_war = { # if this idea will be carried over to the opposing civil war country
+				always = yes
+			}
+
+#			removal_cost = -1 # usually used with advisors
+			
+			modifier = {
+				stability_weekly = 0.005
+				war_support_weekly = -0.005
+			}
+		}
+		
+	}
+	
+	
+	
+}

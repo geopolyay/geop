@@ -1,0 +1,191 @@
+﻿focus_tree = {
+	id = polish_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10 # what percent chance that germany will get this focus
+			tag = PLN
+		}
+	}
+	
+	default = no # says this is not the generic focus tree, not the default one
+	
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 5000 y = 0 }
+
+	initial_show_position = {
+		focus = pln_republic_address 
+	}
+
+	focus = {
+		id = pln_republic_address # id of this focus branch
+		icon = GFX_goal_republic_address
+		x = 13
+		y = 0
+		#relative_position_id = # controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+			always = no
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 1 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+	focus = {
+		id = pln_ostland_situation # id of this focus branch
+		icon = GFX_goal_ostland_situation
+		x = 0
+		y = 2
+		relative_position_id = pln_republic_address # controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+			country_exists = OST
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 5 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+			OST = {
+				set_power_balance = {
+					id = OST_power_balance
+					left_side = OST_fazborea
+					right_side = OST_poland
+				}
+				
+				add_ideas = OST_national_schizophreniaM
+			}
+			
+			
+			set_power_balance = {
+				id = OST_power_balance
+				left_side = OST_fazborea
+				right_side = OST_poland
+			}
+			
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_republic_address }
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+	
+	
+	focus = {
+		id = pln_finish_the_deal # id of this focus branch
+		icon = GFX_goal_finish_the_deal
+		x = 0
+		y = 1
+		relative_position_id = pln_ostland_situation		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+			OR = {
+				power_balance_value = {
+					id = OST_power_balance
+					value > 0.8
+				}
+				OST = {
+					is_subject_of = PLN
+				}
+			}
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 7 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+			OST = {
+				remove_power_balance = {
+					id = OST_power_balance
+				}
+			}
+			
+			
+			remove_power_balance = {
+				id = OST_power_balance
+			}
+			
+			OST = {
+				every_owned_state = {
+					add_core_of = PLN
+				}
+			}
+			
+			PLN = {
+				annex_country = {
+					target = OST
+					transfer_troops = no
+				}
+			}
+			
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_ostland_situation }
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+}

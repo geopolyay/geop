@@ -1,0 +1,46 @@
+state = {
+	id = 16
+	name = "STATE_16"
+	manpower = 7038500
+	
+	state_category = metropolis
+	
+
+	history = {
+
+
+   		owner = FRE
+		add_core_of = FRE
+
+		victory_points = {
+			11506 50 # Paris
+		}
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+
+            9523 = {
+			    landmark_eiffel_tower = {
+			        level = 1
+			        allowed = {
+			            has_dlc = "Gotterdammerung"
+			        }
+			    }
+			}
+			9534 = {
+				# The Renault factories on Île Seguin in Billancourt
+				land_facility = 1
+			}
+		}
+	}
+
+	provinces = {
+		6547 6949 9507 9523 9534 9725 11491 11506 11518 
+	}
+
+	local_supplies = 0.0 
+        manpower=1
+        state_category = town
+}

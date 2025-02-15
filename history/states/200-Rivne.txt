@@ -1,0 +1,33 @@
+state = {
+	id = 200
+	name = "STATE_200" # Zaporozhe
+	manpower = 1294082
+	state_category = town
+
+	history = {
+
+ 
+		owner = ARS
+		add_core_of = ARS
+
+		victory_points = {
+			11405 1 # Zaporozhe
+		}
+
+		buildings = {
+			infrastructure = 1 #was: 5
+
+			# Dnieprostroi Hydroelectric Station
+			#11405 = { dam = 1 }
+			
+		}
+	}
+
+	provinces = {
+		429 588 3399 3767 6596 9571 9729 11405 11700 
+	}
+
+	local_supplies = 0.0 
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,52 @@
+﻿l_english:
+
+ SPR_neutrality:1 "Springfield"
+ SPR_neutrality_DEF:1 "Springfield"
+ SPR_neutrality_ADJ:0 "Springfieldian"
+ SPR:0 "Springfield"
+ SPR_DEF:0 "Springfield"
+ SPR_ADJ:0 "Springfieldian"
+ 
+ ARS_communism:1 "Arstotzka"
+ ARS_communism_DEF:1 "Arstotzka"
+ ARS_communism_ADJ:0 "Arstotzkan"
+ ARS:0 "Arstotzka"
+ ARS_DEF:0 "Arstotzka"
+ ARS_ADJ:0 "Arstotzkan"
+ 
+ OST_neutrality:1 "Ostland"
+ OST_neutrality_DEF:1 "Ostland"
+ OST_neutrality_ADJ:0 "Ostlander"
+ OST:0 "Ostland"
+ OST_DEF:0 "Ostland"
+ OST_ADJ:0 "Ostlander"
+ 
+ PLN_neutrality:1 "Poland"
+ PLN_neutrality_DEF:1 "Poland"
+ PLN_neutrality_ADJ:0 "Polish"
+ PLN:0 "Poland"
+ PLN_DEF:0 "Poland"
+ PLN_ADJ:0 "Polish"
+ 
+ FAZ_fascism:0 "Fazborea"
+ FAZ_fascism_DEF:0 "Fazborea"
+ FAZ_neutrality:1 "Kolonialgouvernement"
+ FAZ_neutrality_DEF:1 "the Kolonialgouvernement"
+ FAZ:0 "Fazborea"
+ FAZ_DEF:0 "Fazborea"
+ FAZ_ADJ:0 "Fazborean"
+ 
+ 
+ FRE_neutrality:1 "French Empire"
+ FRE_neutrality_DEF:1 "the French Empire"
+ FRE_neutrality_ADJ:0 "French"
+ FRE_autonomy_supervised_state:0 "$OVERLORDADJ$ Occupation Zone"
+ FRE_autonomy_supervised_state_DEF:0 "the $OVERLORDADJ$ Occupation Zone"
+ FRE_autonomy_puppet:0 "$OVERLORDADJ$ France"
+ FRE_autonomy_puppet_DEF:0 "$OVERLORDADJ$ France"
+ FRE:0 "France"
+ FRE_DEF:0 "France"
+ FRE_ADJ:0 "French"
+ FRE_fascism_subject:0 "French State"
+ FRE_fascism_subject_DEF:0 "the French State"
+ 

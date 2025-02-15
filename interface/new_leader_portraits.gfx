@@ -1,0 +1,24 @@
+spriteTypes = {
+	# GEOPOLITICA STUFF
+	
+	spriteType = {
+		name = "GFX_unknown_portrait"
+		texturefile = "gfx/leaders/Portrait_Unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_OST_Koko"
+		texturefile = "gfx/leaders/OST/Portrait_Ostland_Koko.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_PLN_walter"
+		texturefile = "gfx/leaders/PLN/Portrait_Poland_Walter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_FAZ_hendrik_baumer"
+		texturefile = "gfx/leaders/FAZ/Portrait_Fazborea_Hendrik_Baumer.dds"
+	}
+	
+}

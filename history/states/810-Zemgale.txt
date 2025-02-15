@@ -1,0 +1,34 @@
+
+state={
+	id=810
+	name="STATE_810"
+
+	history={
+
+    		owner = OST
+		add_core_of = OST
+
+		victory_points = {
+			6222 3 #Jelgava
+		}
+		victory_points = {
+			3255 1 #Jekabpils
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		222 310 319 341 3298 6459 7482 9275 11222 
+	}
+	manpower=600250
+	buildings_max_level_factor=1.000
+	state_category=town
+        manpower=1
+        state_category = town
+}

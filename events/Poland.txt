@@ -1,0 +1,21 @@
+﻿##########################-#
+# Polish Events
+###########################
+
+add_namespace = poland
+
+# Republic Address
+country_event = {
+	id = poland.1
+	title = "State of the Republic"
+	#desc = germany.coup.d
+	#picture = GFX_germany_coup
+	
+	is_triggered_only = yes
+	
+	option = { # Gott mit uns!
+		name = "I see."	
+		
+		complete_national_focus = pln_republic_address
+	}
+}

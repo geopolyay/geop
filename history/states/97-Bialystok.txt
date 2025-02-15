@@ -1,0 +1,31 @@
+state={
+	id=97
+	name="STATE_97"
+
+	history={
+ 
+		victory_points = {
+			11301 3
+		}
+		victory_points = {
+			3254 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		347 400 3254 11301 11329 11357 
+	}
+	manpower=1157200
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=5.0 
+        manpower=1
+        state_category = town
+}
