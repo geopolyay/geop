@@ -3,6 +3,46 @@ spriteTypes = {
 	#### CUSTOM GEOPOLITICA GOAL ICONS
 	
 	SpriteType = {
+		name = "GFX_goal_domestic_powerhouse"
+		texturefile = "gfx/interface/goals/focus_PLN_domestic_powerhouse.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_goal_a_new_light"
+		texturefile = "gfx/interface/goals/focus_PLN_a_new_light.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_a_humiliating_defeat"
+		texturefile = "gfx/interface/goals/focus_PLN_a_humiliating_defeat.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_expand_foodstuffs_production"
+		texturefile = "gfx/interface/goals/focus_PLN_expand_foodstuffs_production.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_develop_warsaw"
+		texturefile = "gfx/interface/goals/focus_PLN_develop_warsaw.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_legacy_of_the_hussars"
+		texturefile = "gfx/interface/goals/focus_PLN_legacy_of_the_hussars.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_expand_clay_industry"
+		texturefile = "gfx/interface/goals/focus_PLN_expand_clay_industry.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_bring_skorzeny_back_to_the_fold"
+		texturefile = "gfx/interface/goals/focus_PLN_bring_skorzeny_back_to_the_fold.dds"			
+	}	
+	
+	SpriteType = {
 		name = "GFX_goal_finish_the_deal"
 		texturefile = "gfx/interface/goals/focus_PLN_finish_the_deal.dds"			
 	}	
@@ -16,4 +56,11 @@ spriteTypes = {
 		name = "GFX_goal_republic_address"
 		texturefile = "gfx/interface/goals/focus_PLN_republic_address.dds"			
 	}	
+	
+	SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		legacy_lazy_load = no
+	}
+	
 }

@@ -1,0 +1,211 @@
+characters = {
+    King_Irruent = {
+        name = "Irruent"
+        portraits = {
+            civilian = {
+                large = "GFX_Irruent"
+            }
+        }
+        country_leader = {
+            ideology = conservatism
+            expire = "1984.1.1"
+            id = 1483
+        }
+    }
+
+    Oklii = {
+        name = "Oklii"
+        portraits = {
+            civilian = {
+                large = "GFX_oklii"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            cost = 150
+            traits = {
+                Communist_Revolutionary
+            }
+        }
+        country_leader = {
+            ideology = stalinism
+            id = 5001
+        }
+    }
+
+    RobertE = {
+        name = "RobertE"
+        portraits = {
+            civilian = {
+                large = "GFX_RobertE"
+                small = "GFX_RobertE_small"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            traits = {
+                Fascist_Demagogue
+            }
+        }
+        country_leader = {
+            ideology = Nazism
+            id = 5013
+            traits = {
+                pimp_propagandist
+            }
+        }
+    }
+
+    Krza = {
+        name = "Krza"
+        portraits = {
+            civilian = {
+                large = "GFX_Krza"
+                small = "GFX_Krza_small"
+            }
+        }
+        advisor = {
+            slot = high_command
+            cost = 50
+            traits = { 
+                army_logistics_2
+            }
+            allowed = {
+                original_tag = USA
+            }
+        }
+    }
+
+    HueyLong = {
+        name = "Huey Long"
+        portraits = {
+            civilian = {
+                large = "GFX_Huey"
+            }
+        }
+        country_leader = {
+            ideology = longism
+            id = 5002
+            traits = { }
+        }
+    }
+
+    Southbum = {
+        name = "Southbum"
+        portraits = {
+            civilian = {
+                large = "GFX_Southbum"
+            }
+        }
+        advisor = {
+            slot = high_command
+            cost = 250
+            traits = {
+                army_infantry_3
+            }
+
+        }
+        corps_commander = {
+            skill = 6               
+            attack_skill = 8        
+            defense_skill = 4       
+            planning_skill = 6      
+            logistics_skill = 5    
+            traits = {
+                Army_Offence_Expert   
+                Offensive_Doctrine     
+                Superior_Tactician    
+                Organizer
+                Infantry_Leader            
+            }
+        }
+    }
+    
+
+    Finalboy = {
+        name = "Finalboy"
+        portraits = {
+            civilian = {
+                large = "GFX_Final"
+            }
+        }
+        corps_commander = {
+            skill = 4 # Medium skill level
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 5
+            traits = {
+                Infantry_Leader
+                Adaptable
+                Skilled_Staffer
+            }
+        }
+    }
+
+    Livid = {
+        name = "LividScoll99"
+        portraits = {
+            civilian = {
+                large = "GFX_Livid"
+            }
+        }
+        corps_commander = {
+            skill = 2
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 1
+            logistics_skill = 1
+            traits = {
+            }
+        }
+    }
+
+    Nick = {
+        name = "Nick"
+        portraits = {
+            civilian = {
+                large = "GFX_Nick"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            cost = 150
+            traits = {
+                Backroom_Backstabber
+            }
+        }
+    }
+
+    Zrex = {
+        name = "Zrex"
+        portraits = {
+            civilian = {
+                large = "GFX_Zrex"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            cost = 150
+            traits = {
+                Silent_Workhorse
+            }
+        }
+    }
+
+    Quimnm = {
+        name = "Quimnm"
+        portraits = {
+            civilian = {
+                large = "GFX_Quimnm"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            cost = 150
+            traits = {
+                builder
+            }
+        }
+    }
+}

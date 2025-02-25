@@ -13,62 +13,6 @@ technologies = {
 	@1945 = 18
 	@1946 = 20
 
-	horse0 = {
-		enable_equipments = {
-			horse
-		}
-		
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = 0
-			}
-		}
-		
-		path = {
-			leads_to_tech = horse1
-			research_cost_coeff = 1 #most cases keep this as 1
-		}
-		
-		
-		start_year = 1918
-		research_cost = 0.1
-		
-		categories = {
-			horse_tech
-		}
-	}
-	
-	horse1 = {
-		folder = {
-			name = infantry_folder
-			position = {
-				x = 0
-				y = 2
-			}
-		}
-		
-		start_year = 1936
-		research_cost = 0.1
-		
-		#enable_equipments = {
-		#	horse
-		#}
-		
-		categories = {
-			horse_tech
-		}
-		
-		enable_subunits = {
-			cavalry
-		}
-		
-	}
-	
-	
-	
-	
 	infantry_weapons = {
 
 		enable_equipments = {

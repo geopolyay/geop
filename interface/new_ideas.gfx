@@ -17,5 +17,10 @@ spriteTypes = {
 		name = "GFX_idea_OST_fazborea"
 		texturefile = "gfx/interface/ideas/idea_OST_fazborea.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_idea_PLN_international_volunteers"
+		texturefile = "gfx/interface/ideas/idea_PLN_international_volunteers.dds"
+	}
 
 }

@@ -11,3 +11,17 @@ OST_power_balance_POL_category = {
 	
 	
 }
+
+PLN_gluckserwelde_category = {
+	priority = 1
+	
+	allowed = {
+		original_tag = PLN
+	}
+	
+	visible = {
+		has_completed_focus = pln_bring_skorzeny_back_to_the_fold
+	}
+	
+	
+}

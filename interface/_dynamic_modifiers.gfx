@@ -5,4 +5,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/state_modifiers/PLN_warszawa.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_modifier_PLN_riga"
+		texturefile = "gfx/interface/state_modifiers/PLN_riga.dds"
+	}
+	
 }

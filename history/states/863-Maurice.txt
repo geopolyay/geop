@@ -6,9 +6,9 @@ state = {
 	
 	history = {
 	
- 
-		add_core_of = CAN
-		add_core_of = QUE
+		owner = KOC
+		add_core_of = KOC
+		add_core_of = KOC
 
 		victory_points = {
 			12223 1

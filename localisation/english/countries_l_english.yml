@@ -1,5 +1,56 @@
 ﻿l_english:
 
+ KOC_democratic:1 "Kingdom of Canada"
+ KOC_democratic_DEF:1 "the Kingdom of Canada"
+ KOC_democratic_ADJ:0 "Canadian"
+ KOC:0 "Canada"
+ KOC_DEF:0 "Canada"
+ KOC_ADJ:0 "Canadian"
+ 
+ USJ_fascism:0 "Patriot Front"
+ USJ_fascism_DEF:0 "the Patriot Front"
+ USJ_fascism_ADJ:0 "American"
+
+ USJ_democratic:0 "United States of America"
+ USJ_democratic_DEF:0 "the United States of America"
+ USJ_democratic_ADJ:0 "American"
+
+ USJ_communism:0 "American Workers Front"
+ USJ_communism_DEF:0 "the Workers Front"
+ USJ_communism_ADJ:0 "American"
+
+ USJ_neutrality:0 "American Union State"
+ USJ_neutrality_DEF:0 "the American Union State"
+ USJ_neutrality_ADJ:0 "American"
+ 
+ EMP_neutrality:1 "German Empire"
+ EMP_neutrality_DEF:1 "the German Empire"
+ EMP_neutrality_ADJ:0 "German"
+ EMP:0 "Germany"
+ EMP_DEF:0 "Germany"
+ EMP_ADJ:0 "German"
+
+ REI_fascism:1 "German Reich"
+ REI_fascism_DEF:1 "the German Reich"
+ REI_fascism_ADJ:0 "German"
+ REI:0 "Germany"
+ REI_DEF:0 "Germany"
+ REI_ADJ:0 "German"
+ 
+ GLU_neutrality:1 "Glückserwelde"
+ GLU_neutrality_DEF:1 "Glückserwelde"
+ GLU_neutrality_ADJ:0 "Glückserwelde"
+ GLU:0 "Glückserwelde"
+ GLU_DEF:0 "Glückserwelde"
+ GLU_ADJ:0 "Glückserwelde"
+ 
+ PRS_neutrality:1 "Kingdom of Prussia"
+ PRS_neutrality_DEF:1 "the Kingdom of Prussia"
+ PRS_neutrality_ADJ:0 "Prussian"
+ PRS:0 "Prussia"
+ PRS_DEF:0 "Prussia"
+ PRS_ADJ:0 "Prussian"
+ 
  SPR_neutrality:1 "Springfield"
  SPR_neutrality_DEF:1 "Springfield"
  SPR_neutrality_ADJ:0 "Springfieldian"

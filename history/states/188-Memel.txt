@@ -8,25 +8,19 @@ state = {
 	history = {
 
  
-		add_core_of = LIT
-		add_claim_by = PRE
+		owner = PRS
+		add_core_of = PRS
 
 		victory_points = {
 			3288 3 # Klaipeda/Memel
 		}
 		
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 1 #was: 5
 			industrial_complex = 1
 			3288 = {
 				naval_base = 1
 			}
-		}
-		
-		1939.3.22 = {
- 
- 
-			add_core_of = GER
 		}
 
 	}
