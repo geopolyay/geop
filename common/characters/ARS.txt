@@ -6,7 +6,7 @@ characters = {
 		name = ARS_mary
 		portraits = {
 			civilian = {
-				large = GFX_unknown_portrait
+				large = GFX_portrait_ARS_mary
 			}
 		}
 		country_leader = {

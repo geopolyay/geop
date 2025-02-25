@@ -1,5 +1,6 @@
+### OSTLAND POWER BALANCE DECISION
 OST_power_balance_POL_category = {
-	OST_power_balance_POL_decision1 = {
+	OST_power_balance_POL_decision1 = { ###VC w/ SKORZENY AND KOKO
 		
 		allowed = { 
 			tag = PLN 
@@ -12,7 +13,7 @@ OST_power_balance_POL_category = {
 		}
 		
 		fire_only_once = no
-		days_remove = 50	
+		days_remove = 70
 		cost = 10
 		
 		#cancel_trigger = {
@@ -21,9 +22,9 @@ OST_power_balance_POL_category = {
 		
 		complete_effect = {
 			
-			add_power_balance_value = {
-				id = OST_power_balance
-				value = 0.15
+			add_power_balance_modifier = {
+				id = OST_power_balance  
+				modifier = OST_POL_power_balance_modifier
 			}
 			
 			
@@ -41,16 +42,17 @@ OST_power_balance_POL_category = {
 		
 		
 		remove_effect = {
-		
-			
-
+			remove_power_balance_modifier = {
+				id = OST_power_balance
+				modifier = OST_POL_power_balance_modifier
+			}
 		}
 		
 		
 		
 	}
 	
-	OST_power_balance_POL_decision2 = {
+	OST_power_balance_POL_decision2 = { ###REFERENDUM
 		
 		allowed = { 
 			tag = PLN 
@@ -85,4 +87,51 @@ OST_power_balance_POL_category = {
 		
 	}
 	
+}
+
+
+
+
+
+### POLAND GLUCKSERWELDE ANNEXATION DECISION
+PLN_gluckserwelde_category = {
+	PLN_gluckserwelde_decision = {
+		
+		allowed = { 
+			tag = PLN 
+		}
+		
+		available = {	
+			
+		}
+		
+		visible = {
+		}
+		
+		fire_only_once = yes
+		days_remove = 365	
+		cost = 10
+		
+		#cancel_trigger = {
+		#}
+		
+		modifier = {
+			political_power_gain = -0.1
+		}
+		
+		
+		remove_effect = {
+		
+			PLN = {
+				annex_country = {
+					target = GLU
+					transfer_troops = no
+				}
+			}
+			
+		}
+		
+		
+		
+	}
 }

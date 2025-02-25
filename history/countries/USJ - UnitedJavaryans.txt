@@ -1,0 +1,29 @@
+
+set_research_slots = 1
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1966.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+    democratic = 80
+    fascism = 0
+    communism = 5
+    neutrality = 15
+}
+
+
+recruit_character = King_Irruent
+recruit_character = Oklii
+recruit_character = RobertE
+recruit_character = HueyLong
+recruit_character = Krza
+recruit_character = Livid
+recruit_character = Nick
+recruit_character = Finalboy
+recruit_character = Southbum
+recruit_character = Quimnm
+recruit_character = Zrex

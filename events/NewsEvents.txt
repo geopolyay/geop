@@ -1,0 +1,56 @@
+add_namespace = gluckserwelde
+add_namespace = arstotzka
+
+### GLUCKSERWELDE MOVEMENT ###
+news_event = {
+	id = gluckserwelde.1
+	title = gluckserwelde.1.t
+	desc = gluckserwelde.1.desc
+	#picture = GFX_news_event_ger_civil_war
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gluckserwelde.1.a
+		#trigger = { # if u put tag = XXX in the trigger, it will show only that option for tag XXX
+		#}
+	}
+}
+
+### ARSTOTZKA WAR ###
+news_event = {
+	id = arstotzka.1
+	title = arstotzka.1.t
+	desc = arstotzka.1.desc
+	#picture = GFX_news_event_ger_civil_war
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		SPR = {
+			declare_war_on = {
+				target = ARS
+				type = take_state
+				generator = { 203 } 
+			}
+		}
+		
+		FAZ = {
+			declare_war_on = {
+				target = ARS
+				type = take_state
+				generator = { 196 } 
+			}
+		}
+	}
+	
+	option = {
+		name = arsotzka.1.a
+		#trigger = { # if u put tag = XXX in the trigger, it will show only that option for tag XXX
+		#}
+	}
+}

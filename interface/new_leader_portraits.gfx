@@ -2,8 +2,67 @@ spriteTypes = {
 	# GEOPOLITICA STUFF
 	
 	spriteType = {
+		name = "GFX_Irruent"
+		texturefile = "gfx/leaders/USA/Irruent.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Final"
+		texturefile = "gfx/leaders/USA/Final.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_Nick"
+		texturefile = "gfx/leaders/USA/Nick.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_Quimnm"
+		texturefile = "gfx/leaders/USA/Quimnm.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_Zrex"
+		texturefile = "gfx/leaders/USA/Zrex.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_Southbum"
+		texturefile = "gfx/leaders/USA/Southbum.dds"
+	}	
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_portrait_video_PLN_pimp"
+		texturefile = "gfx/leaders/PLN/Portrait_Video_Poland_Pimp.png"
+		noOfFrames = 60
+		animation_rate_fps = 14
+		looping = yes
+		play_on_show = yes
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_ARS_mary"
+		texturefile = "gfx/leaders/ARS/Portrait_Arstotzka_Mary.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_SPR_sakdel"
+		texturefile = "gfx/leaders/SPR/Portrait_Springfield_Sakdel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_PRS_bismarck"
+		texturefile = "gfx/leaders/PRS/Portrait_Prussia_Bismarck.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_unknown_portrait"
 		texturefile = "gfx/leaders/Portrait_Unknown.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_PLN_skorzeny"
+		texturefile = "gfx/leaders/PLN/Portrait_Poland_Skorzeny.dds"
 	}
 	
 	spriteType = {

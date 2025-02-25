@@ -7,12 +7,12 @@ state={
     		owner = OST
 		add_core_of = OST
 
-		victory_points = {
-			310 3 #Daugavpils
-		}
-		victory_points = {
-			222 1 #Rezekne
-		}
+		#victory_points = {
+		#	310 3 #Daugavpils
+		#}
+		#victory_points = {
+		#	222 1 #Rezekne
+		#}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -22,7 +22,7 @@ state={
 	}
 
 	provinces={
-		265 3255 3525 6222 6342 11358 
+		265 3255 3525 6342 11358 
 	}
 	manpower=215500
 	buildings_max_level_factor=1.000

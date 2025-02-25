@@ -2,6 +2,7 @@ ideas = {
 
 	country = {
 	
+		### BOP IDEAS ###
 		OST_national_schizophreniaFL = {
 			picture = OST_national_schizophrenia
 			
@@ -126,6 +127,38 @@ ideas = {
 				war_support_weekly = -0.005
 			}
 		}
+		
+		
+		
+		
+		### VOLUNTEER DIVISIONS IDEA ###
+		PLN_international_volunteers = {
+			picture = GFX_idea_PLN_international_volunteers
+			
+			allowed = { # used to restrict ur idea to a particular country
+				tag = PLN # only works for DEU, though u need to attach it to the country aswell
+			}
+
+			available = { # determines when its available to the country
+			}
+			
+			cancel = { # what will cancel this idea
+			}
+			
+			allowed_civil_war = { # if this idea will be carried over to the opposing civil war country
+				always = yes
+			}
+
+#			removal_cost = -1 # usually used with advisors
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+				air_volunteer_cap = 1
+				send_volunteer_size = 2
+				send_volunteers_tension = -0.5
+			}
+		}
+		
 		
 	}
 	

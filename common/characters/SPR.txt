@@ -6,7 +6,7 @@ characters = {
 		name = SPR_sakdel
 		portraits = {
 			civilian = {
-				large = GFX_unknown_portrait
+				large = GFX_portrait_SPR_sakdel
 			}
 		}
 		country_leader = {

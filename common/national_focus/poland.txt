@@ -120,7 +120,7 @@
 	focus = {
 		id = pln_finish_the_deal # id of this focus branch
 		icon = GFX_goal_finish_the_deal
-		x = 0
+		x = -3
 		y = 1
 		relative_position_id = pln_ostland_situation		# controls the actual position of the graphic, takes the position of another focus
 
@@ -183,6 +183,690 @@
 		}
 		
 		prerequisite = { focus = pln_ostland_situation }
+		mutually_exclusive = { focus = pln_a_humiliating_defeat }
+
+	}
+	
+	
+	
+	focus = {
+		id = pln_bring_skorzeny_back_to_the_fold # id of this focus branch
+		icon = GFX_goal_bring_skorzeny_back_to_the_fold
+		x = -3
+		y = 1
+		relative_position_id = pln_finish_the_deal		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+			GLU = {
+				exists = yes
+			}
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 5 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		
+			unlock_decision_category_tooltip = PLN_gluckserwelde_category
+			
+			PLN = {
+				puppet = GLU
+			}
+			
+			188 = {
+				add_core_of = PLN
+				#remove_core_of = GLU
+			}
+ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_finish_the_deal }
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	focus = {
+		id = pln_expand_foodstuffs_production # id of this focus branch
+		icon = GFX_goal_expand_foodstuffs_production
+		x = -1
+		y = 1
+		relative_position_id = pln_finish_the_deal		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 7 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					THIS = {
+						is_core_of = PLN
+					}
+					is_in_home_area = yes
+					THIS = {
+						OR = {
+							has_state_category = rural
+							has_state_category = town
+						}
+					}
+				}
+				
+				add_resource = {
+					type = foodstuffs
+					amount = 4
+				}
+			}
+			
+			random_owned_controlled_state = {
+				limit = {
+					THIS = {
+						is_core_of = PLN
+					}
+					is_in_home_area = yes
+					THIS = {
+						OR = {
+							has_state_category = rural
+							has_state_category = town
+						}
+					}
+				}
+				
+				add_resource = {
+					type = foodstuffs
+					amount = 4
+				}
+			}
+			
+			random_owned_controlled_state = {
+				limit = {
+					THIS = {
+						is_core_of = PLN
+					}
+					is_in_home_area = yes
+					THIS = {
+						OR = {
+							has_state_category = rural
+							has_state_category = town
+						}
+					}
+				}
+				
+				add_resource = {
+					type = foodstuffs
+					amount = 4
+				}
+			}
+			
+			random_owned_controlled_state = {
+				limit = {
+					THIS = {
+						is_core_of = PLN
+					}
+					is_in_home_area = yes
+					THIS = {
+						OR = {
+							has_state_category = rural
+							has_state_category = town
+						}
+					}
+				}
+				
+				add_resource = {
+					type = foodstuffs
+					amount = 4
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_finish_the_deal }
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+	
+	
+	focus = {
+		id = pln_expand_clay_industry # id of this focus branch
+		icon = GFX_goal_expand_clay_industry
+		x = 0
+		y = 1
+		relative_position_id = pln_expand_foodstuffs_production		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+			808 = {
+				is_owned_by = PLN
+			}
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 7 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		
+			808 = {
+				add_resource = {
+					type = clay
+					amount = 10
+				}
+			}
+ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_expand_foodstuffs_production }
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+	
+	focus = {
+		id = pln_develop_warsaw # id of this focus branch
+		icon = GFX_goal_develop_warsaw
+		x = 0
+		y = 1
+		relative_position_id = pln_expand_clay_industry		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 5 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_expand_clay_industry }
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+	
+	focus = {
+		id = pln_domestic_powerhouse # id of this focus branch
+		icon = GFX_goal_domestic_powerhouse
+		x = 0
+		y = 1
+		relative_position_id = pln_develop_warsaw		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 10 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_develop_warsaw }
+		mutually_exclusive = { focus = pln_a_nation_of_conquest focus = pln_military_with_a_state }
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+	
+	
+	focus = {
+		id = pln_legacy_of_the_hussars # id of this focus branch
+		icon = GFX_goal_legacy_of_the_hussars
+		x = 1
+		y = 1
+		relative_position_id = pln_finish_the_deal		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 5 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_finish_the_deal }
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+		
+	focus = {
+		id = pln_domestic_gun_production # id of this focus branch
+		#icon = GFX_goal_expand_clay_industry
+		x = 0
+		y = 1
+		relative_position_id = pln_legacy_of_the_hussars		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 7 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_legacy_of_the_hussars }
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+	focus = {
+		id = pln_domestic_outfit_production # id of this focus branch
+		#icon = GFX_goal_expand_clay_industry
+		x = 0
+		y = 1
+		relative_position_id = pln_domestic_gun_production		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 7 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_domestic_gun_production }
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+	focus = {
+		id = pln_military_with_a_state # id of this focus branch
+		#icon = GFX_goal_expand_clay_industry
+		x = 0
+		y = 1
+		relative_position_id = pln_domestic_outfit_production		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 10 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_domestic_outfit_production }
+		mutually_exclusive = { focus = pln_domestic_powerhouse focus = pln_a_nation_of_conquest }
+
+	}
+	
+	
+	
+	
+	
+	focus = {
+		id = pln_walterreich # id of this focus branch
+		#icon = GFX_goal_expand_clay_industry
+		x = 1
+		y = 1
+		relative_position_id = pln_domestic_powerhouse		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 10 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_domestic_powerhouse focus = pln_military_with_a_state}
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+	
+	
+	
+	focus = {
+		id = pln_foreign_diplomacy # id of this focus branch
+		#icon = GFX_goal_expand_clay_industry
+		x = 0
+		y = 1
+		relative_position_id = pln_walterreich		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 10 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_walterreich }
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+	
+	focus = {
+		id = pln_polish_volunteer_corps # id of this focus branch
+		#icon = GFX_goal_expand_clay_industry
+		x = 0
+		y = 1
+		relative_position_id = pln_foreign_diplomacy		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+			OR = {
+				SPR = {
+					has_war_with = ARS
+				}
+				
+			}
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 5 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+			PLN = {
+				add_ideas = { PLN_international_volunteers }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_foreign_diplomacy }
+#		mutually_exclusive = { focus =  }
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	### FAZBOREA PATH ###
+	focus = {
+		id = pln_a_humiliating_defeat # id of this focus branch
+		icon = GFX_goal_a_humiliating_defeat
+		x = 3
+		y = 1
+		relative_position_id = pln_ostland_situation		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 10 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_ostland_situation 	}
+		mutually_exclusive = { focus = pln_finish_the_deal }
+
+	}
+	
+	
+	focus = {
+		id = pln_a_new_light # id of this focus branch
+		icon = GFX_goal_a_new_light
+		x = 0
+		y = 1
+		relative_position_id = pln_a_humiliating_defeat		# controls the actual position of the graphic, takes the position of another focus
+
+		available = {
+		}
+
+#		bypass = {
+#
+#		}
+
+		cost = 10 # how many days
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = pln_a_humiliating_defeat 	}
 #		mutually_exclusive = { focus =  }
 
 	}

@@ -7,31 +7,19 @@ state = {
 	history = {
 
  
-		add_core_of = GER
-		add_core_of = PRE
+		owner = PRS
+		add_core_of = PRS
 		
 		victory_points = {
 			6332 10 # Königsberg
 		}
 
 		buildings = {
-			infrastructure = 3 #was: 6
-			industrial_complex = 2
-			6332 = {
-				bunker = 1
-
-			}
-			anti_air_building = 2
+			infrastructure = 1 #was: 6
+			industrial_complex = 1
 			6332 = {
 				naval_base = 5
 
-			}
-			air_base = 6
-		}
-		
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
 			}
 		}
 	}

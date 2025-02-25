@@ -15,4 +15,32 @@ characters = {
 			id = -1
 		}
 	}
+
+	GLU_skorzeny = {
+		name = GLU_skorzeny
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PLN_skorzeny
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "2024.1.1.1"
+			id = -1
+		}
+	}
+	
+	PLN_pimp = {
+		name = PLN_pimp
+		portraits = {
+			civilian = {
+				large = GFX_portrait_video_PLN_pimp
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "2024.1.1.1"
+			id = -1
+		}
+	}
 }

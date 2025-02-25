@@ -1,0 +1,18 @@
+characters = {
+
+
+	### LEADERS ###
+	PRS_bismarck = {
+		name = PRS_bismarck
+		portraits = {
+			civilian = {
+				large = GFX_portrait_PRS_bismarck
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "2024.1.1.1"
+			id = -1
+		}
+	}
+}

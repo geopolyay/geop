@@ -1,5 +1,35 @@
 #reload countrycolors
 
+USJ = {
+	color = rgb { 60 67 150 }
+	color_ui = rgb { 60 67 150 }
+}
+
+KOC = {
+	color = rgb { 213 0 50 }
+	color_ui = rgb { 213 0 50 }
+}
+
+EMP = {
+	color = rgb { 93 95 112 }
+	color_ui = rgb { 93 95 112 }
+}
+
+REI = {
+	color = rgb { 18 18 18 }
+	color_ui = rgb { 18 18 18 }
+}
+
+GLU = {
+	color = rgb { 50 122 53 }
+	color_ui = rgb { 50 122 53 }
+}
+
+PRS = {
+	color = rgb { 89 94 102 }
+	color_ui = rgb { 89 94 102 }
+}
+
 ARS = {
 	color = rgb { 145 17 17 }
 	color_ui = rgb { 145 17 17 }

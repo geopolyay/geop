@@ -12,12 +12,12 @@ state={
 
 
 	history={
- 
+ 		owner = USJ
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 3
 		}
-		add_core_of = USA
+		add_core_of = USJ
 		victory_points = {
 			12501 3 
 		}

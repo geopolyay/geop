@@ -1,9 +1,36 @@
 on_actions = {
     on_startup = {
+	
+		### STATE OF THE REPUBLIC ###
         effect = {
             PLN = { 
 				country_event = { id = poland.1  days = 7 }
 			}
 		}
+		
+		### ARSTOTZKA WAR ###
+		effect = {
+			country_event = { id = arstotzka.1  days = 365 }
+		}
 	}
+	
+	}
+	
+	 on_state_control_changed = {
+        effect = {
+            if = {
+                limit = {
+                    tag = PLN
+                    FROM = { tag = OST }
+                    FROM.FROM = {
+                            state = 808
+                    }
+                }
+				808 = {
+					add_dynamic_modifier = { modifier = PLN_riga }
+				}
+            }
+        }
+    }
+	
 }

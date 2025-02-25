@@ -224,7 +224,6 @@ OST_power_balance = {
 				}
 				
 				
-			
 			}
 			
 			
@@ -296,6 +295,18 @@ OST_power_balance = {
 				}
 				
 				
+				
+				
+				GLU = {
+					transfer_state = 188
+				}
+				188 = {
+					add_core_of = GLU
+				}
+				news_event = gluckserwelde.1
+			
+			
+			
 			}
 		
 		
